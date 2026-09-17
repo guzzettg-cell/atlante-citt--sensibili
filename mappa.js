@@ -1048,9 +1048,8 @@ function showIntro(){
     <div class="intro">
       <h2>Atlante sostenibile: la mappa delle città europee</h2>
       <p>Atlante dell'Europa sostenibile, ispirato dalla rubrica Facebook di <a href="https://www.facebook.com/pinobruno.giornalista" target="_blank" class="author-link">Pino Bruno</a>. </p>
-      <p>Ogni pallino sulla mappa racconta come vengono affrontati nella città alcuni problemi di sostenibilità: cliccandoci sopra si possono leggere iniziative prese riguardo ai problemi dell'acqua, dei rifiuti, dell'energia, della mobilità o della rigenerazione urbana. 
-        Cliccando sui tasti in alto si possono selezionare/escludere i vari argomenti. 
-        La ⓘ accanto a ciascun argomento apre una pagina di spiegazione e approfondimento del problema.</p>
+      <p>Ogni pallino sulla mappa racconta come vengono affrontati nella varie città problemi di sostenibilità legati all'acqua, ai rifiuti, all'energia, alla mobilità o alla rigenerazione urbana (cliccandoci sopra si possono leggere le varie iniziative prese). </p>
+      <p>Cliccando sui tasti in alto si possono selezionare/escludere i vari argomenti. La ⓘ accanto a ciascun argomento apre una pagina di spiegazione e approfondimento del problema.</p>
       <p style="font-size:12.5px; color:var(--ink-dim); font-style:italic;">Questa versione mostra solo le sintesi degli interventi di Pino Bruno, con accanto i link agli originali e altri link utili per approfondire le questioni affrontate.</p>
       <div class="progress">Puntate inserite finora: <b>${done} di ${TOTAL_PLANNED}</b></div>
       <ul class="city-list">
