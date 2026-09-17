@@ -1051,7 +1051,7 @@ function showIntro(){
       <p>Ogni pallino sulla mappa come vengono affrontati nella città alcuni problemi di sostenibilità: cliccandoci sopra si possono leggere iniziative prese riguardo ai problemi dell'acqua, dei rifiuti, dell'energia, della mobilità o della rigenerazione urbana. 
         Cliccando sui tasti in alto si possono selezionare/escludere i vari argomenti. 
         La ⓘ accanto a ciascun argomento apre una pagina di spiegazione e approfondimento del problema.</p>
-      <p style="font-size:12.5px; color:var(--ink-dim); font-style:italic;">Questa versione mostra solo le sintesi scritte in parole proprie: pensata per essere condivisa o pubblicata liberamente.</p>
+      <p style="font-size:12.5px; color:var(--ink-dim); font-style:italic;">Questa versione mostra solo le sintesi degli interventi di Pino Bruno, con accanto i link agli originali.</p>
       <div class="progress">Puntate inserite finora: <b>${done} di ${TOTAL_PLANNED}</b></div>
       <ul class="city-list">
         ${visibleCities.map(c => `<li data-city="${c.city}"><span class="cname">${c.city}</span><span class="count">${c.episodes.length} puntat${c.episodes.length>1?'e':'a'}</span></li>`).join('')}
