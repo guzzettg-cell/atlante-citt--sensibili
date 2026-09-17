@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Città che cambiano — Atlante d'Europa</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="stile.css">
+</head>
+<body>
+
+<header>
+  <div class="title-block">
+    <h1>Città che cambiano</h1>
+  </div>
+  <div class="header-controls">
+    <div class="legend" id="legend"></div>
+    <div class="text-size-controls" role="group" aria-label="Dimensione del testo">
+      <button type="button" id="textSmaller" title="Riduci testo" aria-label="Riduci testo">A&minus;</button>
+      <button type="button" id="textReset" title="Dimensione normale" aria-label="Dimensione normale">A</button>
+      <button type="button" id="textBigger" title="Ingrandisci testo" aria-label="Ingrandisci testo">A&plus;</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div id="map"></div>
+  <aside id="panel"></aside>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js"></script>
+<script src="mappa.js"></script>
+</body>
+</html>
