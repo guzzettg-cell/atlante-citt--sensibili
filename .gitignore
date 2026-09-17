@@ -1,0 +1,20 @@
+# File creati da macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+# File temporanei e copie di backup degli editor
+*~
+*.swp
+*.swo
+*.bak
+# Impostazioni locali degli editor
+.vscode/
+.idea/
+# Configurazioni locali e credenziali
+.env
+.env.*
+!.env.example
+# Eventuali dipendenze e log di sviluppo
+node_modules/
+*.log
